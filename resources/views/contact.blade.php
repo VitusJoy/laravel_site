@@ -24,7 +24,7 @@
 <div class="form-group">
 
 	{{Form::label('message', 'Message')}}
-	{{Form::textarea('email','', ['class' => 'form-control', 'placeholder'=>'Enter message'])}}
+	{{Form::textarea('msg','', ['class' => 'form-control', 'placeholder'=>'Enter message'])}}
 	
 </div>
 
